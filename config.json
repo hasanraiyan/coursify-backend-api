@@ -2,5 +2,5 @@
   "api_base_url": "https://coursify-backend-ved8.onrender.com",
   "latest_version": "1.2.0",
   "force_update": true,
-  "update_url": "https://coursify-website.vercel.app/updates"
+  "update_url": "https://coursify-build.vercel.app/updates"
 }  
