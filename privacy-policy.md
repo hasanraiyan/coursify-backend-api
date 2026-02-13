@@ -1,74 +1,75 @@
-# Privacy Policy
+# Privacy Policy for Coursify
 
-**Last updated:** January 2026
+**Last updated:** February 13, 2026
 
-Welcome to **Coursify**!  
-Your privacy is important to us. This policy explains how we collect, use, and protect your information when you use our app.
+Welcome to Coursify. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you use the Coursify mobile application and website.
 
 ---
 
 ## 1. Information We Collect
 
-Coursify does **not require an account** to use basic features.  
-However, we may collect limited information to improve your experience:
+Based on our system architecture, we collect the following data points to provide you with a personalized experience:
 
-- **YouTube Playlist Links:** Used only to create your courses.  
-- **Learning Progress & Notes:** Stored securely on your device or in your account (if applicable).  
-- **Analytics Data:** Anonymous usage data (like feature usage) to improve app performance.
+### Account Information
+* **Identity**: Full Name, Username, and Email address.
+* **Authentication**: Password (securely hashed using Bcrypt; we never store plain-text passwords) or Google ID (if using Google Sign-In).
+* **Profile**: Avatar images (hosted via Cloudinary).
+* **Verification**: Account verification status (via OTP).
 
----
+### Usage and Performance Data
+* **Learning Progress**: Total watch time, daily watch time, and learning streaks.
+* **Feature Usage**: AI usage counts (for analytics and resource management).
+* **Security Logs**: Account security history, including login events and role updates.
 
-## 2. How We Use Information
-
-We use collected data only to:
-- Generate structured courses from playlists  
-- Track your learning progress  
-- Improve the app’s design and functionality  
-- Provide technical support when needed  
-
-We do **not sell, trade, or share** your data with any third parties.
+### Technical Data
+* **Connection Info**: IP addresses and device information (captured during login to manage active sessions and prevent unauthorized access).
 
 ---
 
-## 3. Data Storage & Security
+## 2. How We Use Your Information
 
-All data is stored securely using encrypted databases (MongoDB Atlas).  
-If you use local-only mode, your data remains on your device.  
-We use modern security measures to prevent unauthorized access.
+We use your information to:
+* **Core Service**: Authenticate your account and allow access to courses.
+* **Progress Tracking**: Maintain your learning streaks, watch time data, and AI feature usage.
+* **Communication**: Send OTPs for account verification and password resets (via Resend).
+* **Security**: Monitor active sessions and allow you to logout from specific devices.
+* **Optimization**: Analyze AI resource consumption to improve performance.
+
+---
+
+## 3. Data Storage and Security
+
+* **Hashing**: All passwords and OTP codes are hashed using industry-standard SHA-256 or Bcrypt algorithms.
+* **Persistence**: Data is stored in a secure, protected database environment.
+* **Confidentiality**: We do not sell your personal data to third parties.
 
 ---
 
 ## 4. Third-Party Services
 
-Coursify uses:
-- **YouTube API Services** – to fetch playlist and video data.  
-  Use of this data is subject to [Google’s Privacy Policy](https://policies.google.com/privacy).  
-
-We do not access any private YouTube information or credentials.
-
----
-
-## 5. Your Rights
-
-You may:
-- Delete your notes or progress at any time  
-- Request data deletion (if using a synced account)  
-- Contact us for privacy-related questions  
+To provide our services, we integrate with:
+* **Google Auth**: For secure mobile authentication.
+* **Cloudinary**: For hosting and delivering user profile images.
+* **Resend**: For secure delivery of verification and recovery emails.
+* **Database Hosting**: Secure cloud environment for your data.
 
 ---
 
-## 6. Changes to This Policy
+## 5. User Control and Rights
 
-We may update this policy from time to time.  
-Changes will be reflected here with a new “Last updated” date.
+In accordance with best practices, you have full control over your data:
+* **Access & Update**: View and update your profile details via the specialized "Me" and "Account Settings" endpoints.
+* **Session Management**: View and terminate active login sessions from any device.
+* **Account Deletion**: Request full account deletion, which removes your profile and associated data from our active databases.
 
----
-
-## 7. Contact Us
-
-If you have questions or concerns about privacy, contact:  
-📧 **privacy@coursify.app**
+To request account deletion or data export, please contact us.
 
 ---
 
-**Coursify** respects your time, learning, and privacy equally.
+## 6. Contact Us
+
+If you have any questions about this Privacy Policy or your data, please contact:
+
+**Coursify Team**
+* **Email:** [raiyanhasan2006@gmail.com](mailto:raiyanhasan2006@gmail.com)
+* **Website:** [https://coursify-website.vercel.app](https://coursify-website.vercel.app)
